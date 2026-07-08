@@ -8,7 +8,7 @@ def calc():
 	list = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
 	time.sleep(2)
-	print('This style is AI generated btw , it didnt work for me well so I asked ai JUST about the style code not the code entirely')
+	print(f'{Back.LIGHTBLACK_EX} This style is AI generated btw , it didnt work for me well so I asked ai JUST about the style code not the code entirely')
 	x = input(
     f"{Fore.CYAN}Choose:{Style.RESET_ALL}\n"
     f"{Fore.YELLOW}a-{Style.RESET_ALL} {Fore.GREEN+Style.BRIGHT}Addition\n"
