@@ -98,7 +98,7 @@ def calc():
 					calc()	
 	elif x == 'q':
 		time.sleep(.5)
-		print('Hope you enjoyed!')
+		print(f'{Fore.RED+Style.BRIGHT}Hope you enjoyed!')
 		
 	else:
 		time.sleep(1.5)
