@@ -24,7 +24,7 @@ def calc():
 	if x =='a' :
 		a = input('Choose the first number:  ')
 		if a in list :
-			print(f'Imposter Detected! : {'{a}'}')
+			print(f"Imposter Detected! : {[a]}")
 			calc()
 		else :
 			a = float(a)
@@ -32,7 +32,7 @@ def calc():
 			b = input('Choose the second number:  ')
 				
 			if b in list :
-				print(f'Imposter Detected! : {'{b}'}')
+				pprint(f"Imposter Detected! : {[b]}")
 				calc()
 
 			else :
@@ -43,14 +43,14 @@ def calc():
 	elif x == 'b':
 		a = input('Choose the first number:  ')
 		if a in list :
-			print(f'Imposter Detected! : {'{a}'}')
+			print(f"Imposter Detected! : {[a]}")
 			calc()
 		else:
 			a = float(a)
 			time.sleep(1)
 			b = input('Choose the second number:  ')
 			if b in list :
-				print(f'Imposter Detected! : {'{b}'}')
+				print(f"Imposter Detected! : {[b]}")
 				calc()
 			else:
 				b = float(b)
@@ -60,14 +60,14 @@ def calc():
 	elif x == 'c':
 		a = input('Choose the first number:  ')
 		if a in list :
-			print(f'Imposter Detected! : {'{a}'}')
+			print(f"Imposter Detected! : {[a]}")
 			calc()
 		else:
 			a = float(a)
 			time.sleep(1)
 			b = input('Choose the second number:  ')
 			if b in list :
-				print(f'Imposter Detected! : {'{b}'}')
+				print(f"Imposter Detected! : {[b]}")
 				calc()
 			else:
 				b = float(b)
@@ -77,14 +77,14 @@ def calc():
 	elif x == 'd':
 		a = input('Choose the first number:  ')
 		if a in list :
-			print(f'Imposter Detected! : {'{a}'}')
+			print(f"Imposter Detected! : {[a]}")
 			calc()
 		else:
 			a = float(a)
 			time.sleep(1)
 			b = input('Choose the second number:  ')
 			if b in list :
-				print(f'Imposter Detected! : {'{b}'}')
+				print(f"Imposter Detected! : {[b]}")
 				calc()
 			else:
 				b = float(b)
@@ -98,7 +98,7 @@ def calc():
 					calc()	
 	elif x == 'q':
 		time.sleep(.5)
-		print(f'{Fore.RED+Style.BRIGHT}Hope you enjoyed!')
+		print(f'{Fore.LIGHTRED_EX+Style.BRIGHT}Hope you enjoyed!')
 		
 	else:
 		time.sleep(1.5)
